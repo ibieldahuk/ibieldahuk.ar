@@ -14,7 +14,7 @@ Route::middleware('auth')->group(function () {
 
 Route::get('iniciarSesion', [AutenticacionController::class, 'mostrarFormularioDeRegistro'])->name('login');
 Route::post('iniciarSesion', [AutenticacionController::class, 'login']);
-Route::get('registrar', [AutenticacionController::class, 'mostrarFormularioDeRegistro'])->name('registrar');
+Route::get('registrar', [AutenticacionController::class, 'mostrarFormularioDeRegistro'])->name('usuario.registrar');
 Route::post('registrar', [AutenticacionController::class, 'register']);
 Route::post('cerrarSesion', [AutenticacionController::class, 'logout'])->name('logout');
 
