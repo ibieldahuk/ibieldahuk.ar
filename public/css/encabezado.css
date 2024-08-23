@@ -1,0 +1,61 @@
+body
+{
+	margin: 0;
+	background-color: #1D1A39;
+}
+
+header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	height: 112px;
+	border-bottom: 2px solid #AE445A;
+}
+
+header > div
+{
+	margin: 0 32px;
+	color: #E8BCB9;
+}
+
+#logotipo
+{
+	font-size: 64px;
+	font-family: "Holtwood One SC", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+#logotipo > span
+{
+	color: #F39F5A;
+}
+
+#botones-nav
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	font-size: 14px;
+	font-family: "IBM Plex Mono", monospace;
+  	font-weight: 600;
+	font-style: normal;
+}
+
+#botones-nav > div
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 174px;
+	height: 64px;
+	border-right: 1px solid #E8BCB9;
+}
+
+#botones-nav > #primer-boton 
+{
+	border-left: 1px solid #E8BCB9;
+}
