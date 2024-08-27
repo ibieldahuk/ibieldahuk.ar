@@ -1,0 +1,146 @@
+/*
+ * ALINEADO
+*/
+
+.a-centrado
+{
+	text-align: center;
+}
+
+.a-centrado-inline
+{
+	display: inline;
+	margin: auto;
+}
+
+.a-justificado
+{
+	text-align: justify;
+}
+
+/*
+ * COLORES
+*/
+
+.c-whiteish
+{
+	color: #E8BCB9;
+}
+
+.c-bg-oscuro
+{
+	background-color: #451952;
+}
+
+/*
+ * COMPONENTES
+*/
+
+.enlace
+{
+	margin: 5em auto;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.enlace img
+{
+	width: 24px;
+	height: 24px;
+	margin: 1em;
+}
+
+/*
+ * DISPLAYS
+*/
+
+.d-grid
+{
+	display: grid;
+}
+
+.d-rows-50-50
+{
+	grid-template-rows: 50% 50%;
+}
+
+.d-cols-50-50
+{
+	grid-template-columns: 50% 50%;
+}
+
+.d-flex
+{
+	display: flex;
+}
+.d-fila-flex
+{
+	flex-direction: row;
+}
+.d-columna-flex
+{
+	flex-direction: column;
+}
+
+.d-centrado-flex
+{
+	justify-content: center;
+	align-items: center;
+}
+
+.d-centrado-flex-between
+{
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+/*
+ * JERARQUÍAS
+*/
+
+h2, h3, h4
+{
+	font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2
+{
+	font-size: 48px;
+}
+
+h3
+{
+	font-size: 32px;
+}
+
+h4
+{
+	font-size: 24px;
+}
+
+.tam-img-miniatura
+{
+	max-height: 200px;
+	width: auto;
+}
+
+.t-medio-1, .t-medio-2
+{
+	font-family: "IBM Plex Mono", monospace;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.t-medio-1
+{
+	font-size: 16px;
+}
+
+.t-medio-2
+{
+	font-size: 14px;
+}

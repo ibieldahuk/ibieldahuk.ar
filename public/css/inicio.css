@@ -1,0 +1,19 @@
+main
+{
+	width: 1080px;
+	margin: auto;
+}
+
+.contenedor-grid
+{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+	gap: 16px; /* TO-DO: no funciona el gap para las columnas */
+}
+
+.item-1
+{
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
